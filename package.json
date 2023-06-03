@@ -1,0 +1,35 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.17.11",
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/native": "^6.1.6",
+    "@types/react": "~18.0.27",
+    "axios": "^1.4.0",
+    "expo": "^46.0.21",
+    "expo-splash-screen": "~0.16.2",
+    "expo-status-bar": "~1.4.4",
+    "phosphor-react-native": "^1.1.2",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-native": "0.69.9",
+    "react-native-image-picker": "^5.4.0",
+    "react-native-svg": "12.3.0",
+    "react-native-svg-transformer": "^1.0.0",
+    "typescript": "^4.6.3",
+    "@types/react-native": "~0.69.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "typescript": "^5.0.4"
+  },
+  "private": true
+}
